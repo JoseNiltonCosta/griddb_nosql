@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+
+public class Salario {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		float sl, slm;
+		
+		System.out.println("digite o valor do slario ");
+		sl = in.nextFloat();
+		
+		System.out.println("digite o valor do slario minimo atual ");
+		slm = in.nextFloat();
+		
+		slm = (slm/2)+slm;
+		
+		if(sl<slm){
+			System.out.println("você tem direito ao pis");
+		} else{
+			System.out.println("você não tem direito ao pis");
+		}
+		
+		
+		
+		
+		
+
+	}
+
+}
